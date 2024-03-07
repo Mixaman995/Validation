@@ -1,0 +1,108 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body {
+
+align-items: center;
+
+}
+
+h1 {
+
+margin: 10px auto 40px 500px;
+font-size: 60px;
+font-weight: 600px;
+
+
+}
+
+.registration {
+
+
+margin: 30px auto 30px 500px; 
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+height: 600px;
+width: 60%;
+
+
+
+}
+
+h2 {
+
+font-size: 40px;
+font-weight: 400px;
+
+
+}
+
+.fields {
+
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+height: 80%;
+
+
+}
+
+input {
+
+width: 560px;
+height: 36px;
+border-radius: 5px;
+font-size: 15px;
+
+
+}
+
+::placeholder {
+
+font-size: 15px;
+
+}
+
+button {
+
+    margin: 4px auto 10px 600px; 
+    height: 60px;
+    width: 130px;
+    border: 3px black solid;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    border-radius: 11px;
+    cursor: pointer;
+
+}
+
+p {
+
+color: red;
+
+
+}
+
+.errortext {
+
+    margin: 4px auto 10px 600px; 
+    font-size: 17px;
+    font-weight: 700;
+
+
+}
+
+.welcome {
+
+background-image: url(Tiger.avif);
+height: 100vh;
+display: none;
+
+}
